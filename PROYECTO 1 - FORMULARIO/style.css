@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(0deg,#624F82, #624F82, #9F73AB, #A3C7D6);
+}
+
+#Intro {
+    text-align: center;
+    margin: 20px auto;
+    width: fit-content;
+    height: fit-content;
+    color: white;
+}
+
+h1 {
+    margin-bottom: 10px;
+}
+
+form {
+    max-width: 500px;
+    min-width: 300px;
+    margin: 5px auto;
+    background-color: #3F3B6C;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    font-size: 18px;
+    color: white;
+    border-radius: 5px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+fieldset, #submit {
+    border: none;
+    width: 80%;
+    margin: 10px auto;
+    margin-bottom: 20px;
+}
+
+input, select, textarea {
+    width: 100%;
+    margin: 10px 0;
+    height: 2rem;
+    border-radius: 4px;
+    border-style: none;
+    background-color: white;
+    padding-left: 10px;
+    font-size: 0.9em;
+    border-color: 1px solid rgb(210, 210, 210);
+    color: black;
+}
+
+select, textarea {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+}
+
+textarea {
+    height: 7rem;
+    padding-top: 10px;
+}
+
+input[type="checkbox"], input[type="radio"] {
+    width: unset;
+    vertical-align: middle;
+    margin-right: 10px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+input[type="radio"] {
+    margin-bottom: 0;
+}
+
+#submit {
+    display: block;
+    cursor: pointer;
+    padding: auto;
+    font-family: 'Poppins', sans-serif;
+    background-color: #A3C7D6;
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <div id="Intro">
+            <h1 id="title">Proyecto 1</h1>
+            <p id="description">Primer poyecto de este curso, tenemos que realizar un formulario</p>
+        </div>
+        <div id="Formulario">
+            <form action="" id="survey-form">
+                <fieldset>
+                    <label for="name" id="name-label">Name <input type="text" id="name" required placeholder="Ingrese su nombre"></label>
+                    <label for="email" id="email-label">Email <input type="email" id="email" required placeholder="Ingrese su correo"></label>
+                    <label for="number" id="number-label">Edad (opcional) <input type="number" id="number" min="18" max="120" placeholder="Ingrese su edad"></label>
+                </fieldset>
+                <fieldset>
+                    <label for="">Selecciona el rol que te describe mejor: 
+                        <select name="" id="dropdown">
+                        <option value="">Selecciona </option>
+                        <option value="1">Estudio </option>
+                        <option value="2">Trabajo</option>
+                        </select>
+                    </label>
+                </fieldset>
+                <fieldset>
+                    <p>Recomendaria nuestra pagina?</p>
+                    <label for="Si"><input type="radio" name="Recomendaria" id="Si" class="inline" value="Si">Si </label> 
+                    <label for="No"><input type="radio" name="Recomendaria" id="No" class="inline" value="No">No </label>
+                </fieldset>
+                <fieldset>
+                    <p>Como estas aprendiendo a programar?</p>
+                    <label for="1"><input type="checkbox" name="Videos" id="" value="1">Videos en YouTube</label>
+                    <label for="2"></label><input type="checkbox" name="Profesor" id="" value="2">Profesor particular</label>
+                    <label for="3"></label><input type="checkbox" name="Colegio" id="" value="3">Colegio o universidad</label>
+                    <label for="4"></label><input type="checkbox" name="Curso" id="" value="4">Curso en linea</label>
+                    <label for="5"></label><input type="checkbox" name="Boot" id="" value="5">Bootcamp</label>
+                    <label for="6"></label><input type="checkbox" name="Otros" id="" value="6">Otros</label>
+                </fieldset>
+                <fieldset>
+                    <label for="bio">Cual es tu experiencia? <textarea name="exp" id="bio" cols="30" rows="3" placeholder="Empeze desde que..."></textarea></label>
+                </fieldset>
+                <input type="submit" id="submit">
+            </form>
+        </div>
+    </main>
+</body>
+</html>

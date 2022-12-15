@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Open Sans", Arial, sans-serif;
+    width: 100%;
+}
+
+main {
+    margin: 15px 0 10px 25px;
+    line-height: 1.5;
+    font-size: 1.1em;
+    font-weight: 200;
+    width: 70%;
+}
+
+header h1 {
+    font-size: 2em;
+    font-weight: 400;
+}
+
+p {
+    padding-left: 20px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+ul {
+    padding-left: 80px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    margin-right: 100px;
+}
+
+ul.principal li {
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+code {
+    display: block;
+    background-color: rgb(214, 214, 214);
+    padding: 20px;
+    border-radius: 10px;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: 100;
+    line-height: 2em;
+    font-size: 1.2em;
+}
+
+section {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+nav li, nav h1 {
+    display: block;
+    border-bottom: solid 2px black;
+    padding: 20px;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+body {
+    display: flex;
+}
+
+nav {
+    height: 100%;
+    width: 350px;
+    position: fixed;
+    border-right: 2px black solid;
+    background-color: whitesmoke;
+    z-index: 10;
+}
+
+main {
+    margin-left: 375px;
+}
+
+@media (max-width: 700px) and (min-width:0px) {
+    body {
+        display: flex;
+    }
+    
+    nav {
+        width: 100%;
+        height: fit-content;
+        position: absolute;
+    }
+
+    nav header {
+        background-color: white;
+        text-align: center;
+    }
+
+    main {
+        margin-top: 450px;
+        margin-left: 25px;
+        width: 90%;
+    }
+}

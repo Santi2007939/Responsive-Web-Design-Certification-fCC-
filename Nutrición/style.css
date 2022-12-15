@@ -1,0 +1,79 @@
+body {
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-size: 12px;
+}
+
+.marco {
+    width: 270px;
+    border: 2px black solid;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+header h1 {
+    text-align: center;
+    margin: -2px 0;
+    font-size: 21px;
+}
+
+header p {
+    margin: 3px 0;
+}
+
+.linea {
+    border-bottom: 1px solid black;
+    margin: 2px 0;
+    clear: right;
+    padding: 0 7px;
+}
+
+.gruesa {
+    height: 10px;
+}
+
+p {
+    margin: 0;
+}
+
+.bold {
+    font-weight: 800;
+}
+
+.right {
+    float: right;
+}
+
+.mediano {
+    height: 5px;
+}
+
+.gruesa, .mediano {
+    background-color: black;
+}
+
+.indent {
+    margin-left: 1em;
+}
+
+.VM {
+    display: inline-block;
+    width: 100%;
+}
+
+.punto {
+    padding: 0px 2px;
+    background-color: black;
+    border-radius: 90%;
+    margin: 0 52px;
+    font-size: 5px;
+}
+
+.medio {
+    margin: 0 73px;
+}
+
+.nota {
+    font-size: 0.53rem;
+    text-align: center;
+}
